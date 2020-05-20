@@ -4,8 +4,37 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="예산을 입력하세요" />
+
+    <EditText
+        android:id="@+id/etBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="10,000"
+        android:inputType="number" />
+
+    <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="budget Activity" />
+        android:text="매월시작일을 입력하세요" />
+
+    <EditText
+        android:id="@+id/etStartdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/setBudgetBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="저장" />
+
 </LinearLayout>
